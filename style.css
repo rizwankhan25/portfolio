@@ -161,7 +161,7 @@ html, body{
 #twokimg{
     width: 100%;
     height: 100%;
-    background-image: url(./assets/gpic1.png);
+    background-image: url(./assets/redsofa.png);
     background-position: center;
     background-size: cover;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
@@ -249,18 +249,32 @@ html, body{
 
 #oneimg{
     background-image: url(./assets/gettala.png);
+    width: 50vw;
+    background-size:cover ;
+    background-position: center;
 }
 
 #onetwo{
     background-image: url(./assets/react.png);
+    background-size: cover;
+    background-position: center;
+    width: 60vw;
 }
 
 #onethree{
-    background-image: url(./assets/boldworld.png);
+    background-image: url(./assets/boldword.png);
+    background-size: cover;
+    background-position: left;
+    width: 50vw;
 }
 
 #onefour{
     background-image: url(./assets/gsap.png);
+    background-size: cover;
+    background-position: center;
+    width: 35vw;
+    height: 35vh;
+    margin-top: 5vw;
 }
 
 
