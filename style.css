@@ -704,6 +704,7 @@ html, body{
     #viewall{
         bottom: -5%;
         font-size: 3vw;
+        left: 60%;
     }
     #four{
         height: 95vh;
@@ -767,6 +768,23 @@ html, body{
     #footer-one h2{
         font-size: 3vw;
         font-weight: 400;
+    }
+    #oneimg{
+        width: 80vw;
+    }
+    #onetwo{
+        width: 180vw;
+        margin-top: 10vw;
+    }
+    #onethree{
+        width: 80vw;
+        height: 30vh;
+        margin-top: 8vw;
+    }
+    #onefour{
+        width: 110vw;
+        height: 30vh;
+        margin-top: 12vw;
     }
 }
 
