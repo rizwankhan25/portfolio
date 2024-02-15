@@ -32,15 +32,20 @@ html, body{
     min-height: 100vh;
     overflow: hidden;
 }
-
+#lft-nav a:hover{
+    color: salmon;
+}
+#rght-nav a:hover{
+    color: salmon;
+}
 #lft-nav a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #fff;
     font-size: 1.2vw;
 }
 
 #rght-nav a{
-    text-decoration: none;
+    text-decoration: underline;
     margin-left: 3vw;
     color: #fff;
 }
@@ -99,7 +104,6 @@ html, body{
     width: 30vw;
     height: 60vh;
     overflow: hidden;
-    /* background-color: #333; */
     border-radius: 45%;
     margin-top: 2vw;
     margin-left: 10vw;
@@ -108,7 +112,7 @@ html, body{
 #rght-img img{
     margin-left: 2.7vw;
     margin-top: -1vw;
-    width: 25vw;
+    width: 29vw;
 }
 
 #box{
@@ -493,7 +497,14 @@ html, body{
     flex-direction: column;
     align-items: left;
 }
-
+#footer-two a:hover{
+    color: salmon;
+    text-decoration: underline;
+}
+#footer-three a:hover{
+    color: salmon;
+    text-decoration: underline;
+}
 #footer-two a, #footer-three a{
     color: #fff;
     margin-top: 1.5vh;
@@ -606,11 +617,13 @@ html, body{
         padding-left: 6vw;
         width: 80vw;
         height: 35vh;
-        margin-top: -75vw;
+        margin-top: -55vw;
     }
     #rght-img img{
-        margin-top: -1vw;
-        width: 65vw;
+        width: 58vw;
+        margin-top: 1vw;
+        margin-left: 8vw;
+
     }
     #left-txt{
         width: 100vw;
@@ -762,3 +775,21 @@ html, body{
     }
   }
   
+
+
+#contact-dets{
+    flex-direction: column;
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 1vw;
+    gap: .7vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contact-dets a{
+    font-size: 1.5vw;
+    color: #000;
+    /* text-decoration: underline; */
+}
+#contact-dets p{
+    font-style: bold;
+}
