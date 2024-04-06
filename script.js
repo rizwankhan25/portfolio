@@ -3,9 +3,9 @@
 //   smooth: true
 // });
 
-barba.init({
-    // ...
-})
+// barba.init({
+//     // ...
+// })
 
 
 $(document).ready(function() {
